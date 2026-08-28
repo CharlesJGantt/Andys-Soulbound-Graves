@@ -8,6 +8,12 @@
 
 Carry a tiered Soulbound Rune in your off-hand and a protected death becomes a physical gravesite: your inventory is secured inside buried skeleton remains, a Soul Lantern marks the tombstone, and a native Recovery Compass guides you back. Dig up the grave and present its matching compass to recover every stored stack safely.
 
+<p align="center">
+  <img src="images/overworld-gravesite.jpg" alt="An Overworld Soulbound Graves burial plot with a lantern-topped tombstone, flowers, coarse dirt, and a protected death-day sign" width="100%">
+</p>
+
+_A complete Overworld gravesite marks the burial plot and records the owner and Minecraft death day._
+
 **Current release:** 0.1.31  
 **Download:** [Andys_Soulbound_Graves_0.1.31.mcaddon](Andys_Soulbound_Graves_0.1.31.mcaddon)  
 **SHA-256:** `C3C5BDEEB1ADE0F7995F77607117DFD1E6F54F85A8FDD8CD540E1B028278AA15`
@@ -58,11 +64,29 @@ Timed Soulbinding is off by default, so all protected graves remain recoverable 
 
 The recipe unlocks when an Amethyst Shard is first obtained.
 
+<p align="center">
+  <img src="images/tier-1-recipe.png" alt="Crafting Table recipe for Soulbound Rune I" width="80%">
+</p>
+
 ### Upgrades
 
 - **Tier II:** Tier I rune surrounded by eight Emeralds
+
+<p align="center">
+  <img src="images/tier-2-recipe.png" alt="Crafting Table recipe for Soulbound Rune II" width="80%">
+</p>
+
 - **Tier III:** Tier II rune surrounded by eight Diamonds
+
+<p align="center">
+  <img src="images/tier-3-recipe.png" alt="Crafting Table recipe for Soulbound Rune III" width="80%">
+</p>
+
 - **Tier IV:** Tier III rune surrounded by eight Netherite Ingots
+
+<p align="center">
+  <img src="images/tier-4-recipe.png" alt="Crafting Table recipe for Soulbound Rune IV" width="80%">
+</p>
 
 To recharge Tier I–III, carry an **Amethyst Cluster**, hold a partially depleted rune, and crouch-interact with a normal, chipped, or damaged Anvil. One cluster restores one use.
 
@@ -78,7 +102,33 @@ To recharge Tier I–III, carry an **Amethyst Cluster**, hold a partially deplet
 
 The rune loses one use only after a grave transaction succeeds, then rests inside the skeleton with the inventory. Experience follows vanilla death behavior.
 
+<p align="center">
+  <img src="images/exposed-remains.jpg" alt="An excavated Soulbound grave showing the prone skeleton that securely holds the player's stored inventory" width="100%">
+</p>
+
+_Dig through the grave plot to expose the prone skeleton—the remains are the protected inventory storage, not the tombstone._
+
 Void deaths are not protected. Lava deaths require Tier IV.
+
+## Graves across dimensions
+
+<p align="center">
+  <img src="images/nether-gravesite.jpg" alt="A Nether Soulbound Graves marker with fungi, a Soul Lantern, and a nonflammable crimson sign" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/end-gravesite.jpg" alt="A Soulbound Graves marker in the End with a Soul Lantern, carved RIP tombstone, coarse-dirt plot, and death-day sign" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/underwater-gravesite.jpg" alt="An underwater Soulbound Graves burial plot sealed on the seafloor" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/lava-grave.jpg" alt="A Tier IV Soulbound grave safely built on a solid netherrack vault in a Nether lava lake" width="100%">
+</p>
+
+_Tier IV can secure a lava death by creating a solid, dimension-appropriate grave vault before placing the burial scene._
 
 ## World settings
 
@@ -89,7 +139,21 @@ Operators can crouch-use a Soulbound Rune in the main hand to configure:
 - Memorial, remove, permanent, or timed memorial post-recovery behavior
 - Timed memorial duration
 
+<p align="center">
+  <img src="images/world-settings.jpg" alt="The in-game Soulbound Graves world settings form, showing Timed Soulbinding, timer mode, post-recovery behavior, and memorial duration controls" width="80%">
+</p>
+
+_Operators configure timers and post-recovery grave behavior through an in-game form—no commands or experimental pack settings required._
+
 Existing graves keep the timer window they received at creation.
+
+The owner or an operator can crouch-interact with a tombstone to inspect it. Removal stays locked while possessions remain bound.
+
+<p align="center">
+  <img src="images/grave-management.jpg" alt="The protected Soulbound Grave management form showing the grave owner, death day, bound state, grave identity, information button, and disabled removal action" width="80%">
+</p>
+
+_The owner or an operator can inspect a grave, but the removal action stays locked while possessions remain bound._
 
 ## Installation
 
