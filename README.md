@@ -14,9 +14,9 @@ Carry a tiered Soulbound Rune in your off-hand and a protected death becomes a p
 
 _A complete Overworld gravesite marks the burial plot and records the owner and Minecraft death day._
 
-**Current release:** 0.1.31  
-**Download:** [Andys_Soulbound_Graves_0.1.31.mcaddon](Andys_Soulbound_Graves_0.1.31.mcaddon)  
-**SHA-256:** `C3C5BDEEB1ADE0F7995F77607117DFD1E6F54F85A8FDD8CD540E1B028278AA15`
+**Current release:** 0.1.36  
+**Download:** [Andys_Soulbound_Graves_0.1.36.mcaddon](Andys_Soulbound_Graves_0.1.36.mcaddon)  
+**SHA-256:** `0D12583FDD2C1B430916DFAB11AD7C8445A7916C03B30D35A0E2F5D514E2F7A8`
 
 Minecraft Bedrock **26.30 or newer** is required. Both linked packs must be active. No cheats, commands, experimental gameplay toggles, or additional dependencies are required. Standard graphics and Vibrant Visuals are supported.
 
@@ -39,6 +39,9 @@ The complete player documentation is in the [GitHub Wiki](https://github.com/Cha
 - Protected tombstones, signs, plots, and remains with owner/operator management
 - Twenty-four PBR-ready tombstone combinations across stone, deepslate, and diorite
 - Overworld, Nether, End, underwater, and Tier IV lava grave handling
+- Graves on soul sand, soul soil, and other solid ground
+- Held rune uses the same inventory icon in hand
+- World settings from the Behavior Pack gear menu or the in-game operator form
 - Standard graphics and Vibrant Visuals support
 - Single-player, multiplayer, Realms, and compatible servers
 
@@ -132,7 +135,10 @@ _Tier IV can secure a lava death by creating a solid, dimension-appropriate grav
 
 ## World settings
 
-Operators can crouch-use a Soulbound Rune in the main hand to configure:
+Operators can configure timers and post-recovery behavior from either:
+
+- The Behavior Pack gear icon in the world editor
+- Crouch-using a Soulbound Rune in the main hand in-game
 
 - Timed Soulbinding on/off
 - Owner-online or world-running timer behavior
@@ -143,7 +149,7 @@ Operators can crouch-use a Soulbound Rune in the main hand to configure:
   <img src="images/world-settings.jpg" alt="The in-game Soulbound Graves world settings form, showing Timed Soulbinding, timer mode, post-recovery behavior, and memorial duration controls" width="80%">
 </p>
 
-_Operators configure timers and post-recovery grave behavior through an in-game form—no commands or experimental pack settings required._
+_Operators configure timers and post-recovery grave behavior from the pack gear menu or an in-game form—no commands or experimental gameplay toggles required._
 
 Existing graves keep the timer window they received at creation.
 
@@ -159,7 +165,7 @@ _The owner or an operator can inspect a grave, but the removal action stays lock
 
 ### Windows, Android, iPhone, and iPad
 
-1. Download [Andys_Soulbound_Graves_0.1.31.mcaddon](Andys_Soulbound_Graves_0.1.31.mcaddon).
+1. Download [Andys_Soulbound_Graves_0.1.36.mcaddon](Andys_Soulbound_Graves_0.1.36.mcaddon).
 2. Open it with Minecraft Bedrock and wait for both packs to import.
 3. Create or edit a world.
 4. Activate **Andy's Soulbound Graves [BP]** under Behavior Packs.
